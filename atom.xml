@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-10-09T04:11:40.133Z</updated>
+  <updated>2020-10-11T08:36:48.873Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,47 +17,52 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>第一篇文章</title>
-    <link href="http://example.com/2020/10/09/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <id>http://example.com/2020/10/09/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
-    <published>2020-10-09T04:10:10.000Z</published>
-    <updated>2020-10-09T04:11:40.133Z</updated>
+    <title>Hello World</title>
+    <link href="http://example.com/2020/10/11/csdn_export_md/"/>
+    <id>http://example.com/2020/10/11/csdn_export_md/</id>
+    <published>2020-10-10T16:00:00.000Z</published>
+    <updated>2020-10-11T08:36:48.873Z</updated>
     
-    <content type="html"><![CDATA[<p>int jc(int n)<br>{<br>  if(n==1||n==0)<br>      return 1;<br>  else<br>      return n*jc(n-1);</p><p>}</p>]]></content>
+    <content type="html"><![CDATA[<pre class=" language-cpp"><code class="language-cpp"><span class="token macro property">#inlclude &lt;stdio.h></span><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>      <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Hello World\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>      <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span><span class="token punctuation">}</span></code></pre>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;int jc(int n)&lt;br&gt;{&lt;br&gt;  if(n==1||n==0)&lt;br&gt;      return 1;&lt;br&gt;  else&lt;br&gt;      return n*jc(n-1);&lt;/p&gt;
-&lt;p&gt;}&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;pre class=&quot; language-cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;&lt;span class=&quot;token macro property&quot;&gt;#inlclude &amp;lt;stdio.h&gt;&lt;/span&gt;
+&lt;span class=&quot;token ke</summary>
       
     
     
     
+    <category term="测试" scheme="http://example.com/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+    <category term="C++" scheme="http://example.com/tags/C/"/>
     
   </entry>
   
   <entry>
-    <title></title>
-    <link href="http://example.com/2020/10/09/hello-world/"/>
-    <id>http://example.com/2020/10/09/hello-world/</id>
-    <published>2020-10-09T02:46:40.590Z</published>
-    <updated>2020-10-09T04:14:04.686Z</updated>
+    <title>阶乘(递归)</title>
+    <link href="http://example.com/2020/10/11/%E9%98%B6%E4%B9%98/"/>
+    <id>http://example.com/2020/10/11/%E9%98%B6%E4%B9%98/</id>
+    <published>2020-10-10T16:00:00.000Z</published>
+    <updated>2020-10-11T08:49:03.403Z</updated>
     
-    <content type="html"><![CDATA[<p>C++ 输出hello world</p><p>#include <iostream></p><p>using namespace std;</p><p>int main()<br>{<br>  cout&lt;&lt;”hello world”&lt;&lt;endl;<br>  return 0;</p><p>}</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="阶乘"><a href="#阶乘" class="headerlink" title="阶乘"></a>阶乘</h1><pre class=" language-cpp"><code class="language-cpp"><span class="token keyword">int</span> <span class="token function">jc</span><span class="token punctuation">(</span><span class="token keyword">int</span> n<span class="token punctuation">)</span><span class="token punctuation">{</span>  <span class="token keyword">if</span><span class="token punctuation">(</span>n<span class="token operator">==</span><span class="token number">1</span><span class="token operator">||</span>n<span class="token operator">==</span><span class="token number">0</span><span class="token punctuation">)</span>      <span class="token keyword">return</span> <span class="token number">1</span><span class="token punctuation">;</span>  <span class="token keyword">else</span>      <span class="token keyword">return</span> n<span class="token operator">*</span><span class="token function">jc</span><span class="token punctuation">(</span>n<span class="token number">-1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token punctuation">}</span></code></pre>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;C++ 输出hello world&lt;/p&gt;
-&lt;p&gt;#include &lt;iostream&gt;&lt;/p&gt;
-&lt;p&gt;using namespace std;&lt;/p&gt;
-&lt;p&gt;int main()&lt;br&gt;{&lt;br&gt;  cout&amp;lt;&amp;lt;”hello world”&amp;lt;&amp;lt;end</summary>
+    <summary type="html">&lt;h1 id=&quot;阶乘&quot;&gt;&lt;a href=&quot;#阶乘&quot; class=&quot;headerlink&quot; title=&quot;阶乘&quot;&gt;&lt;/a&gt;阶乘&lt;/h1&gt;&lt;pre class=&quot; language-cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;
+&lt;span class=&quot;token</summary>
       
     
     
     
+    <category term="测试" scheme="http://example.com/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+    <category term="C++" scheme="http://example.com/tags/C/"/>
     
   </entry>
   
