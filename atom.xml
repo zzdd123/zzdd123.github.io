@@ -23,13 +23,14 @@
     <published>2020-10-10T16:00:00.000Z</published>
     <updated>2020-10-11T08:36:48.873Z</updated>
     
-    <content type="html"><![CDATA[<pre class=" language-cpp"><code class="language-cpp"><span class="token macro property">#inlclude &lt;stdio.h></span><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>      <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Hello World\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>      <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span><span class="token punctuation">}</span></code></pre>]]></content>
-    
     
       
       
+        
+        
     <summary type="html">&lt;pre class=&quot; language-cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;&lt;span class=&quot;token macro property&quot;&gt;#inlclude &amp;lt;stdio.h&gt;&lt;/span&gt;
-&lt;span class=&quot;token ke</summary>
+&lt;span class=&quot;token</summary>
+        
       
     
     
@@ -42,19 +43,45 @@
   </entry>
   
   <entry>
+    <title>string用法</title>
+    <link href="http://example.com/2020/10/11/string%E7%94%A8%E6%B3%95/"/>
+    <id>http://example.com/2020/10/11/string%E7%94%A8%E6%B3%95/</id>
+    <published>2020-10-10T16:00:00.000Z</published>
+    <updated>2020-10-11T13:06:25.857Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;C-String用法&quot;&gt;&lt;a href=&quot;#C-String用法&quot; class=&quot;headerlink&quot; title=&quot;C++ String用法&quot;&gt;&lt;/a&gt;C++ String用法&lt;/h1&gt;&lt;h2 id=&quot;字符串定义方式&quot;&gt;&lt;a href=&quot;#字符串定义方式&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="程序设计" scheme="http://example.com/categories/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+    <category term="c++ string" scheme="http://example.com/tags/c-string/"/>
+    
+  </entry>
+  
+  <entry>
     <title>阶乘(递归)</title>
     <link href="http://example.com/2020/10/11/%E9%98%B6%E4%B9%98/"/>
     <id>http://example.com/2020/10/11/%E9%98%B6%E4%B9%98/</id>
     <published>2020-10-10T16:00:00.000Z</published>
     <updated>2020-10-11T08:49:03.403Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="阶乘"><a href="#阶乘" class="headerlink" title="阶乘"></a>阶乘</h1><pre class=" language-cpp"><code class="language-cpp"><span class="token keyword">int</span> <span class="token function">jc</span><span class="token punctuation">(</span><span class="token keyword">int</span> n<span class="token punctuation">)</span><span class="token punctuation">{</span>  <span class="token keyword">if</span><span class="token punctuation">(</span>n<span class="token operator">==</span><span class="token number">1</span><span class="token operator">||</span>n<span class="token operator">==</span><span class="token number">0</span><span class="token punctuation">)</span>      <span class="token keyword">return</span> <span class="token number">1</span><span class="token punctuation">;</span>  <span class="token keyword">else</span>      <span class="token keyword">return</span> n<span class="token operator">*</span><span class="token function">jc</span><span class="token punctuation">(</span>n<span class="token number">-1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token punctuation">}</span></code></pre>]]></content>
-    
     
       
       
+        
+        
     <summary type="html">&lt;h1 id=&quot;阶乘&quot;&gt;&lt;a href=&quot;#阶乘&quot; class=&quot;headerlink&quot; title=&quot;阶乘&quot;&gt;&lt;/a&gt;阶乘&lt;/h1&gt;&lt;pre class=&quot; language-cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;
-&lt;span class=&quot;token</summary>
+&lt;span</summary>
+        
       
     
     
@@ -63,6 +90,31 @@
     
     
     <category term="C++" scheme="http://example.com/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>常用算法</title>
+    <link href="http://example.com/2020/10/11/%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95/"/>
+    <id>http://example.com/2020/10/11/%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95/</id>
+    <published>2020-10-10T16:00:00.000Z</published>
+    <updated>2020-10-11T14:46:06.880Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;深度优先搜索&quot;&gt;&lt;a href=&quot;#深度优先搜索&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="程序设计" scheme="http://example.com/categories/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+    <category term="算法模板" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF/"/>
     
   </entry>
   
